@@ -1,0 +1,32 @@
+<h1>hola desde heroe component</h1>
+
+<dl>
+    <td>
+        NOmbre: 
+    </td>
+    <dd>
+        {{nombre}}
+    </dd>
+
+    <td>
+        Edad: 
+    </td>
+    <dd>
+        {{edad}}
+    </dd>
+    <td>
+        funcion: 
+    </td>
+    <dd>
+        {{obtenerNOmbre()}}
+    </dd>
+    <td>
+        Capitalizado: 
+    </td>
+    <dd>
+        {{nombreCapitalizar}}
+    </dd>
+</dl>
+<button (click)="cambiarNombre()">cambiar Heroe</button>
+
+<button (click)="cambiarEdad()">cambiar edad</button>
